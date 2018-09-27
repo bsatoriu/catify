@@ -11,3 +11,4 @@
 
 ### Developer Notes
 
+This job uses a custom [HySDS Dataset Specification](https://github.com/hysds/hysds-framework/wiki/Datasets) to designate a 'catify' S3 folder for storing its output. The image overlay script is implemented in the [Catify.py](Catify.py) script, which downloads the input file and overlays our [fatcat.jpg](fatcat.jpg), to validate a trivial data ingestion exercise. 

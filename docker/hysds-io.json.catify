@@ -1,0 +1,13 @@
+{
+  "label": "Catify",
+  "component":"tosca",
+  "submission_type":"individual",
+  "params": [
+    {
+      "name": "base_image_url",
+      "placeholder": "a full url to a base JPG image",
+      "from": "submitter",
+      "type": "text"
+    }
+  ]
+}

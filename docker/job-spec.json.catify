@@ -1,0 +1,11 @@
+{
+  "command": "/home/ops/verdi/ops/hello_world/run_catify.sh",
+  "recommended-queues": [ "factotum-job_worker-small" ],
+  "params": [
+    {
+      "name": "base_image_url",
+      "destination": "positional"
+    }
+  ]
+}
+
